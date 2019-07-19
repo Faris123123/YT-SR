@@ -47,7 +47,7 @@ if (message.content.startsWith(prefix + 'setT')) {
 if (message.content.startsWith(prefix + 'setgame')) {
   client.user.setGame(argresult);
      console.log('test' + argresult);
-    message.channel.sendMessage(`**ـم ✅تـ  ${argresult}**`)
+    message.channel.sendMessage(`** ✅ **`)
 } 
 
 
