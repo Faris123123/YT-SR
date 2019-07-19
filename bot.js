@@ -39,7 +39,7 @@ if (message.content.startsWith(prefix + 'setavatar')) {
    message.channel.sendMessage(`**Avatar Changed Successfully To ${argresult}**`);
 }
 
-if (message.content.startsWith(prefix + 's')) {
+if (message.content.startsWith(prefix + 'set s')) {
   client.user.setGame(argresult, "https://www.twitch.tv/peery13");
      console.log('test' + argresult);
     message.channel.sendMessage(`**Streaming : ${argresult}**`)
