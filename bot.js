@@ -15,14 +15,14 @@ client.on('message', message => {
 
   
   if (message.content.startsWith(prefix + 'setwatch')) {
-  client.user.setActivity(argresult, {type: 'W'})
+  client.user.setActivity(argresult, {type: 'w'})
      console.log('test' + argresult);
     message.channel.sendMessage(`**Watch Now : ${argresult}**`)
 } 
 
  
   if (message.content.startsWith(prefix + 'setlis')) {
-  client.user.setActivity(argresult, {type: 'L'})
+  client.user.setActivity(argresult, {type: 'l'})
      console.log('test' + argresult);
     message.channel.sendMessage(`**LISTENING Now : ${argresult}**`)
 } 
